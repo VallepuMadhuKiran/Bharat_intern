@@ -1,0 +1,13 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        //System.out.println("Hello, World!");
+        Scanner sc=new Scanner(System.in);
+        float a=sc.nextFloat();
+        //float a=98.6;
+        float b=a-32;
+        float c=b/9;
+        float d=c*5;
+        System.out.println(d);
+    }
+}
